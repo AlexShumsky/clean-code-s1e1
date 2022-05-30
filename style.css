@@ -1,4 +1,5 @@
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
@@ -11,9 +12,11 @@
   display: block;
   text-align: right;
 }
+
 .header__matrix-img{
   width: 100%;
 }
+
 .header__info-link {
   font-family: fantasy, cursive;
 }
@@ -23,15 +26,18 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task__lable,
 .input_type_text{
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .new-task__input-block {
   display: flex;
 }
+
 .input_type_text{
   margin: 0;
   font-size: 18px;
@@ -44,16 +50,20 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .list-tasks {
   margin:0;
   padding: 0px;
 }
+
 .list-tasks__item, .title {
   list-style:none;
 }
+
 .input_type_text, .button{
   outline:none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -63,10 +73,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
+
 .title,
 .new-task__title {
   color: #333;
@@ -77,29 +90,33 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input_type_text:focus {
   color: #333;
 }
 
 /* New Task */
+
 .new-task__title {
   display: block;
   margin: 0 0 20px;
 }
+
 .new-task__input {
   width: 318px;
 }
 
 /* Task list */
+
 .list-tasks__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .list-tasks__item > *{
   vertical-align: middle;
 }
@@ -107,31 +124,37 @@
 .list-tasks__checkbox{
   margin: 0 10px;
 }
+
 .list-tasks__lable {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list-tasks__input {
   width: 226px
 }
+
 .list-tasks__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .list-tasks__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .completed-tasks .task__lable {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .list-tasks .input_type_text {
   display:none
 }
@@ -144,8 +167,11 @@
 .edit-mode .task__lable {
   display:none;
 }
+
 @media (max-width:768px) {
+
   .header { 
     text-align: center;
   }
+
 }
