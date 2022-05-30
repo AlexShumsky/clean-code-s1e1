@@ -84,7 +84,6 @@
 
 .title,
 .new-task__title {
-  color: #333;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
@@ -93,6 +92,8 @@
   text-transform: uppercase;
 }
 
+.title,
+.new-task__title,
 .input_type_text:focus {
   color: #333;
 }
@@ -131,9 +132,9 @@
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
 }
 
+.list-tasks__lable,
 .list-tasks__input {
   width: 226px;
 }
