@@ -13,7 +13,7 @@
   text-align: right;
 }
 
-.header__matrix-img{
+.header__matrix-img {
   width: 100%;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .task__lable,
-.input_type_text{
+.input_type_text {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -38,7 +38,7 @@
   display: flex;
 }
 
-.input_type_text{
+.input_type_text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -52,16 +52,16 @@
 }
 
 .list-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list-tasks__item, .title {
-  list-style:none;
+  list-style: none;
 }
 
-.input_type_text, .button{
-  outline:none;
+.input_type_text, .button {
+  outline: none;
 }
 
 .button {
@@ -117,11 +117,11 @@
   align-items: center;
 }
 
-.list-tasks__item > *{
+.list-tasks__item > * {
   vertical-align: middle;
 }
 
-.list-tasks__checkbox{
+.list-tasks__checkbox {
   margin: 0 10px;
 }
 
@@ -156,21 +156,21 @@
 /* Edit Task */
 
 .list-tasks .input_type_text {
-  display:none
+  display: none
 }
 
-.edit-mode .input_type_text{
-  display:inline-block;
-  width:224px
+.edit-mode .input_type_text {
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task__lable {
-  display:none;
+  display: none;
 }
 
 @media (max-width:768px) {
 
-  .header { 
+  .header {
     text-align: center;
   }
 
