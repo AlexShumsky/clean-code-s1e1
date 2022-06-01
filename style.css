@@ -120,7 +120,8 @@
   align-items: center;
 }
 
-.list-tasks__item > * {
+.list-tasks__item > .list-tasks__checkbox, 
+.list-tasks__lable{
   vertical-align: middle;
 }
 
@@ -151,7 +152,7 @@
 
 /* Completed */
 
-#completed-tasks .task__lable {
+.list-tasks_completed .task__lable {
   text-decoration: line-through;
   color: #888;
 }
